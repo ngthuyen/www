@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*ie,firefox,chrome,...*/
+*{
+padding:0px;
+margin:0px;
+}
+
+body{
+width:800px;
+margin:auto;
+}
+
+#top{
+height:100px;
+background:#0099FF;
+text-align:center;
+line-height:100px;
+}
+
+#menu{
+height:30px;
+background:#9966FF;
+}
+
+#menu ul li{
+list-style-type:none;
+float:left;
+width:160px;
+text-align:center;
+line-height:30px;
+}
+
+#menu ul li a{
+text-decoration:none;
+color:#FFFFFF;
+}
+
+#left{
+float:left;
+width:618px;
+border-right:1px solid #CCCCCC;
+}
+
+.news{
+border-bottom:1px solid #CCCCCC;
+margin:5px 10px 5px 10px;
+padding-bottom:5px;
+}
+
+.news h3 {
+margin-bottom:5px;
+}
+.news a:hover{
+	color: blue;
+	/* text-decoration: none; */
+}
+.news a {
+	text-decoration: none;
+	color: green;
+	/* padding-top: 15px; */
+}
+.news img{
+border:1px solid #CCCCCC;
+padding:2px;
+float:left;
+margin-right:5px;
+}
+
+#right{
+float:left;
+width:178px;
+/* border:1px solid #000000; */
+}
+#right .abs {
+	width: 160px;
+	margin:20px 0 0 10px;
+	border: 1px solid #ccc;
+	height: 150px;
+}
+
+#bottom{
+height:40px;
+background:#999999;
+}
+
+.categories {
+	border-bottom: 1px solid #ccc;
+	color: #900;
+	margin-bottom: 5px;
+}
+.article {
+	width: 380px;
+	text-align: justify;
+	float: left;
+}
+.list-article {
+	border-left: 1px solid #ccc;
+	float: left;
+	/* color: blue; */
+	padding-left: 20px;
+	margin-left: 10px;
+	width: 180px;
+}
+.list-article li{
+	list-style-type: square;
+	color: #999;
+}
+.list-article li a {
+	text-decoration: none;
+	color: black;
+}
+.pagination ul  {
+	list-style: none;
+	/* float: left; */
+}
+.pagination li a{
+	float: left;
+	text-decoration: none;
+	padding: 5px;
+	border: 1px solid #ccc;
+	color: black;
+	margin-right: 5px;
+}
+.pagination {
+	width: 220px;
+	margin: 10px auto 30px;
+}
+
+/* trang detail */
+#list-detail{
+	border-bottom: 1px dashed #ccc;
+}
+#list-detail h2{
+	margin:  10px 0px;
+}
+#list-detail p{
+	margin:  10px 0px;
+}
+#other-article p{
+	margin: 10px 0px;
+}
+#other-article ul{
+	margin: 10px 0px 20px 20px;
+}
+#other-article a {
+	text-decoration: none;
+	color: gray;
+}
+#other-article a:hover {
+	color: blue;
+}
+#comment legend {
+	margin-left: 5px;
+}
+#comment table {
+	margin: 13px 0px 0px 20px;
+}
+#comment table input {
+	padding: 2px;
+}
+#comment table textarea {
+	padding: 2px;
+}
+#show-comment {
+	margin: 20px 0px;
+}
+.comm {
+	margin: 8px 0px;
+}
+.comm img {
+	float: left;
+	border: 1px solid #ccc;
+	padding: 2px;
+}
+.mess {
+	float: left;
+	margin-left: 10px;
+}
+
+/* login */
+
+	
+
